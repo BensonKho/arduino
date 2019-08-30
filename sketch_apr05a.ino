@@ -11,7 +11,7 @@ int dist,distL,distR;
  
 
 void setup() {
-Serial.begin(9600);//port no may vary systemm to system        
+Serial.begin(9600);      
   
 pinMode(trigger1, OUTPUT); 
 pinMode(echo1, INPUT); 
